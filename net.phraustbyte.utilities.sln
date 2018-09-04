@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLStoredProcedureGenerator", "SQLStoredProcedureGenerator\SQLStoredProcedureGenerator.csproj", "{071F9809-637E-4172-BC37-92B5900A781E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{30F3A97B-330D-4E2A-87A9-7BD863767209}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{071F9809-637E-4172-BC37-92B5900A781E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071F9809-637E-4172-BC37-92B5900A781E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071F9809-637E-4172-BC37-92B5900A781E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071F9809-637E-4172-BC37-92B5900A781E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F3A97B-330D-4E2A-87A9-7BD863767209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F3A97B-330D-4E2A-87A9-7BD863767209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F3A97B-330D-4E2A-87A9-7BD863767209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F3A97B-330D-4E2A-87A9-7BD863767209}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
